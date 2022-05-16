@@ -27,6 +27,7 @@ public class CarreersTest {
 		test = carrers.getTest("Assesment Test Report", "Driver Automation Assessment For ILAB Website");
 	}
 	
+	// Change data provider to "applicationFormDataFromExcelFile" to read from excel file
 	@Test(dataProvider="applicationFormDataFromObjectFile")
 	public void navigateToOnlineApplication(String name, String email) throws Exception {
 

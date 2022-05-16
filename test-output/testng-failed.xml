@@ -6,7 +6,7 @@
       <class name="test.CarreersTest">
         <methods>
           <include name="tearDown"/>
-          <include name="navigateToOnlineApplication" invocation-numbers="0"/>
+          <include name="navigateToOnlineApplication" invocation-numbers="1"/>
           <include name="flushTestReport"/>
           <include name="setup"/>
         </methods>
